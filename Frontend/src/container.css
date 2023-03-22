@@ -1,0 +1,51 @@
+.data {
+  margin: 2%;
+}
+
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.pagenotfound {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #ffeb3b;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffeb3b;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #9bd2fd;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+}
