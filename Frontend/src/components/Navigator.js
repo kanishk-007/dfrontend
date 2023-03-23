@@ -9,7 +9,7 @@ export default function Navigator() {
   const dispatch = useDispatch();
   const handleLogout = () => {
     localStorage.clear();
-    dispatch(logout)
+    dispatch(logout())
   }
   return (
     <>

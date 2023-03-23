@@ -40,10 +40,11 @@ export const reducer = (state = initialState, action = {}) => {
     case LOGOUT:
       return {
         ...state,
-        acessToken: null,
         data: [],
-        error: "",
-        message: ""
+        isLoading: false,
+        error: '',
+        accessToken: '',
+        message: ''
       };
     case FETCH_MESSAGE: {
       return {

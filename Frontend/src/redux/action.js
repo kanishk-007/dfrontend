@@ -40,7 +40,7 @@ export const fetchError = (payload) => {
 
 export const logout = () => {
   return {
-    type: LOGOUT,
+    type: LOGOUT
   };
 };
 
